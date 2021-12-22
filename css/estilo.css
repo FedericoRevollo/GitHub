@@ -106,6 +106,7 @@ h2{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    transition: all 2s ease; /*agregado*/
 }
 .menu li a{
     text-decoration: none;
@@ -114,15 +115,15 @@ h2{
     font-size: large;
 }
 .menu li a:hover{
-    color: rgb(255, 20, 98);
-    background-color: darksalmon;
+    color: rgb(88, 4, 32);
     font-weight: bold;
     border-radius: 10%;
     border: solid 2px black;
-} */
+    background-image: radial-gradient(circle,rgba(185, 101, 115, 0.815), pink); /*agregado Gradiente*/
+}
 .titular{
     color: indigo;
-    text-align: center;
+    text-align:start;
     font-weight: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -138,13 +139,16 @@ h2{
     color: khaki;
     font-style: italic;
     text-align: justify;
-}
+    background-image: linear-gradient(red, rgb(216, 109, 109));
+}/*Agregado Gradiente*/
 .text2{
     text-transform: uppercase;
     text-align: center;
     line-height: 1.6;
+    background-image: radial-gradient(circle, red, rgb(212, 129, 129)); /*Agregado Gradiente*/
 }
 a{
     text-decoration: none;
     color: rgb(100, 4, 49);
+
 }
